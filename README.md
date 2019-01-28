@@ -9,18 +9,18 @@ instructions needs to be followed to run this standalone application.
 
 Hexa:
    example 1: In intellij click on "edit configuration" at run button and navigate to program arguments "-x" this is case sensitive.
-   Statement: the above statement similar to --> java -x
+   Statement: the above statement similar to --> java SumDigitsOfString -x
    input & result: enter input "abc123" on the console it gives result 39
 
 InputFile:
    example 2: In intellij click on "edit configuration" at run button and navigate to program arguments "-f D:\file.temp" this is case sensitive.
-   Statement: the above statement similar to --> java -f "D:\file.temp"
+   Statement: the above statement similar to --> java SumDigitsOfString -f "D:\file.temp"
    input & result: it take input from your file and provide output console "result 39"
    Note: you have to create file and need to pass absolute path as 2nd argument
 
 Default:
     example 3: In intellij click on "edit configuration" at run button.
-    Statement: the above statement similar to --> java
+    Statement: the above statement similar to --> java SumDigitsOfString
     input & result: enter input "abc123" on the console it gives result 39
 
 To run test cases mvn clean test which runs all test (for test cases no need to pass input files program reads from src\test\resources folder)
